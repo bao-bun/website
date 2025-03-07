@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  outline-offset: 2px;
+  outline: 2px solid trasparent;
+}
