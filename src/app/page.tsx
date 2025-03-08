@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       <div className="mt-12 gap-4 flex flex-row items-center justify-center">
-        <a href="https://discordapp.com/oauth2/authorize?client_id=1340917960621162557&scope=bot+applications.commands&permissions=8">
+        <a target="_blank" href="https://discordapp.com/oauth2/authorize?client_id=1340917960621162557&scope=bot+applications.commands&permissions=8">
           <Button
             variant="solid"
             startContent={<SiDiscord className="text-lg" />}
@@ -35,7 +35,7 @@ export default function Home() {
           </Button>
         </a>
 
-        <a href="https://docs.baobun.dev">
+        <a target="_blank" href="https://docs.baobun.dev">
           <Button
             variant="faded"
             startContent={<BiBook className="text-lg" />}
