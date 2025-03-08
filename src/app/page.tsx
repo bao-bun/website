@@ -26,21 +26,23 @@ export default function Home() {
       </div>
 
       <div className="mt-12 gap-4 flex flex-row items-center justify-center">
-        <Button
-          variant="solid"
-          startContent={<SiDiscord className="text-lg" />}
-          href="https://discordapp.com/oauth2/authorize?client_id=1340917960621162557&scope=bot+applications.commands&permissions=8"
-        >
-          Add to Discord
-        </Button>
+        <a href="https://discordapp.com/oauth2/authorize?client_id=1340917960621162557&scope=bot+applications.commands&permissions=8">
+          <Button
+            variant="solid"
+            startContent={<SiDiscord className="text-lg" />}
+          >
+            Add to Discord
+          </Button>
+        </a>
 
-        <Button
-          variant="faded"
-          href="https://docs.baobun.dev"
-          startContent={<BiBook className="text-lg" />}
-        >
-          Documentation
-        </Button>
+        <a href="https://docs.baobun.dev">
+          <Button
+            variant="faded"
+            startContent={<BiBook className="text-lg" />}
+          >
+            Documentation
+          </Button>
+        </a>
       </div>
     </div>
   );
