@@ -28,7 +28,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${inter.className} bg-[#0e0d0f] text-white flex flex-col antialiased w-screen h-screen overflow-hidden`}
+        className={`${inter.className} bg-[#0e0d0f] text-white flex flex-col antialiased w-screen overflow-x-hidden`}
       >
         <Providers>{children}</Providers>
       </body>
